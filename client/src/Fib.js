@@ -40,7 +40,7 @@ class Fib extends Component {
 
   renderValues() {
     const entries = [];
-    <div key=0>
+    <div key="0">
       For index 0 the answer is 0
     </div>
 
