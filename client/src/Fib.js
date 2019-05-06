@@ -40,6 +40,9 @@ class Fib extends Component {
 
   renderValues() {
     const entries = [];
+    <div key=0>
+      For index 0 the answer is 0
+    </div>
 
     for (let key in this.state.values) {
       entries.push(
